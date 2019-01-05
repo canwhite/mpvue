@@ -1,0 +1,4 @@
+<import src="/components/card.vue.wxml" />
+<import src="/components/card.vue.wxml" />
+<import src="/components/MyCount.vue.wxml" />
+<import src="/components/AboutMe.vue.wxml" />

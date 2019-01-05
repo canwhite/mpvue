@@ -1,0 +1,38 @@
+<import src="/components/card.vue.wxml" />
+<import src="/components/MyCount.vue.wxml" />
+<import src="/components/AboutMe.vue.wxml" /><template name="5b809b16">
+  <view class="_div data-v-0e16a3e1 container" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}">
+    <view wx:if="{{page==0}}" class="_div data-v-0e16a3e1">
+      <view class="_div data-v-0e16a3e1 usermotto">
+        <view class="_div data-v-0e16a3e1 user-motto"><template data="{{...$root[$kk+'0'], $root}}" is="e61e9ad8"></template></view>
+      </view>
+      <form class="_form data-v-0e16a3e1 form-container"><input type="text" class="_input data-v-0e16a3e1 form-control" value="{{motto}}" bindinput="handleProxy" placeholder="v-model" data-eventid="{{'0'}}" data-comkey="{{$k}}" /> <input type="text" class="_input data-v-0e16a3e1 form-control" value="{{motto}}" bindblur="handleProxy" placeholder="v-model.lazy" data-eventid="{{'1'}}" data-comkey="{{$k}}" /></form>
+      <navigator url="/pages/counter/main" class="_a data-v-0e16a3e1 counter">去往Vuex示例页面</navigator>
+      <navigator url="/pages/hellovue/main" class="_a data-v-0e16a3e1 hello">hello vue test</navigator>
+    </view>
+    <view wx:if="{{page==1}}" class="_div data-v-0e16a3e1"><template data="{{...$root[$kk+'1'], $root}}" is="55a37b4f"></template></view>
+    <view wx:if="{{page==2}}" class="_div data-v-0e16a3e1"><template data="{{...$root[$kk+'2'], $root}}" is="355aecde"></template></view>
+    <view class="_div data-v-0e16a3e1 tabs">
+      <view class="_ul data-v-0e16a3e1">
+        <view bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_li data-v-0e16a3e1">
+          <view class="_div data-v-0e16a3e1">
+            <image style="width:20px;height:20px;" src="/static/images/nav_manage.png" class="_img data-v-0e16a3e1"></image>
+          </view>
+          <view class="_div data-v-0e16a3e1">首页</view>
+        </view>
+        <view bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_li data-v-0e16a3e1">
+          <view class="_div data-v-0e16a3e1">
+            <image style="width:20px;height:20px;" src="/static/images/nav_manage.png" class="_img data-v-0e16a3e1"></image>
+          </view>
+          <view class="_div data-v-0e16a3e1">计数</view>
+        </view>
+        <view bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}" class="_li data-v-0e16a3e1">
+          <view class="_div data-v-0e16a3e1">
+            <image style="width:20px;height:20px;" src="/static/images/nav_manage.png" class="_img data-v-0e16a3e1"></image>
+          </view>
+          <view class="_div data-v-0e16a3e1">我的</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

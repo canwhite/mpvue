@@ -1,0 +1,7 @@
+@import "../../common/vendor.wxss";
+
+.message.data-v-7433d69b {
+  color: blue;
+  padding: 20rpx;
+  text-align: center;
+}

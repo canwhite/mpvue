@@ -1,0 +1,13 @@
+<template name="4be960f2">
+  <view class="_div data-v-7433d69b container" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-7433d69b weui-grids">
+      <block wx:key="index" key="{{index}}" wx:for="{{grids}}" wx:for-index="index" wx:for-item="item">
+        <navigator url class="_navigator data-v-7433d69b weui-grid" hover-class="weui-grid_active">
+          <image class="_image data-v-7433d69b weui-grid__icon" src="{{item.src}}"></image>
+          <view class="_div data-v-7433d69b weui-grid__label">{{item.name}}</view>
+        </navigator>
+      </block>
+    </view>
+    <view class="_div data-v-7433d69b message" style=" {{('background-image:' + ('url(' + (avatar || '') + ')') + ';')}}"> {{msg}} </view>
+  </view>
+</template>
